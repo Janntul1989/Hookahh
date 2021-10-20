@@ -1,0 +1,325 @@
+@media(min-width:1400px) {}
+
+@media(max-width:1399px) {
+    .team_hover {
+        position: absolute;
+        left: 25%;
+        width: 28%;
+        top: 45px;
+        z-index: -1;
+    }
+    .reservation_right input {
+        width: 47.9%;
+    }
+    .reservation_right select {
+        width: 30.9%;
+    }
+    .reservation_right textarea {
+        width: 99%;
+    }
+    .reservation_right button {
+        width: 99%;
+    }
+}
+
+@media(max-width:1199px) {
+    .gallary_item {
+        width: 22.6%;
+        margin-bottom: 20px;
+    }
+    .reservation_right textarea {
+        width: 100%;
+    }
+    .reservation_right button {
+        width: 100%;
+    }
+    .reservation_right input {
+        width: 48%;
+    }
+    .reservation_right select {
+        width: 30.7%;
+    }
+    .reservation_right {
+        padding: 50px 0;
+    }
+    .our_story_item a {
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        font-size: 12px;
+    }
+    .our_story_item a::before {
+        border: 4px double white;
+        width: 55px;
+        height: 55px;
+        left: 0%;
+        top: 0%;
+    }
+}
+
+@media(max-width:991px) {
+    .navbar-toggler {
+        margin-top: 18px;
+    }
+    .menu ul li a {
+        display: block;
+        text-align: center;
+    }
+    .menu ul {
+        background: #080808db;
+    }
+    .slider_item .slider_item_content h1 {
+        font-size: 60px;
+    }
+    .story_smoke {
+        left: -20px;
+    }
+    .team_hover {
+        left: 11%;
+        width: 41%;
+        top: 54px;
+        transform: translate(-3%, 3%);
+    }
+    .gallary_item {
+        width: 29.5%;
+        margin-bottom: 20px;
+    }
+    .gallery_slider {
+        padding: 0 22px;
+    }
+    .reservation_right select {
+        width: 31.5%;
+    }
+    .reservation_right input {
+        width: 48.6%;
+    }
+    .story_page_right {
+        padding-top: 50px !important;
+    }
+    .our_story_item a {
+        width: 65px;
+        height: 65px;
+        line-height: 65px;
+        font-size: 15px;
+    }
+    .our_story_item a::before {
+        border: 4px double white;
+        width: 70px;
+        height: 70px;
+        left: 0%;
+        top: 0%;
+    }
+    .counter_item {
+        margin-bottom: 60px;
+    }
+}
+
+@media(max-width:767px) {
+    .slider_item .slider_item_content h1 {
+        font-size: 45px;
+        line-height: 62px;
+    }
+    .slider_item .slider_item_content p::before {
+        left: 10%;
+    }
+    .slider_item .slider_item_content p::after {
+        right: 10%;
+    }
+    .story_smoke {
+        display: none;
+    }
+    .our_story_right p {
+        width: 100%;
+    }
+    .happy_hour_time {
+        border-left: none;
+        padding-left: 0;
+        margin-top: 6px;
+        border-top: 1px solid #1C1C1C;
+        padding-top: 27px;
+        text-align: center;
+    }
+    .happy_hour_counter ul {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .team_hover {
+        left: 28%;
+        width: 56%;
+        top: 62px;
+        transform: translate(-7%, -9%);
+    }
+    .gallary_item {
+        width: 43.5%;
+        margin-bottom: 20px;
+    }
+    .reservation_right input {
+        width: 100%;
+    }
+    .reservation_right select {
+        width: 30.9%;
+    }
+    .testimonial_right {
+        padding: 20px 0;
+    }
+    .testimonial_prev {
+        left: -40px;
+    }
+    .testimonial_next {
+        right: -40px;
+    }
+    .testimonial_right p {
+        font-size: 15px;
+    }
+    .testimonial_right span {
+        font-size: 14px;
+    }
+    .contact_banner h2 {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+    .contact_count ul li {
+        margin-bottom: 30px;
+    }
+    .contact_page {
+        padding-top: 300px;
+    }
+}
+
+@media(max-width:575px) {
+    .slider_item .slider_item_content h1 {
+        font-size: 34px;
+        line-height: 50px;
+    }
+    .slider_item .slider_item_content p::before {
+        left: 0%;
+    }
+    .slider_item .slider_item_content p::after {
+        right: 0%;
+    }
+    .banner .slider_item {
+        height: 603px;
+    }
+    .arrow_icon {
+        top: 80%;
+    }
+    .story_item img {
+        height: 410px;
+    }
+    .happy_hour {
+        padding: 50px 0;
+    }
+    .happy_hour_counter ul li {
+        margin-right: 0;
+    }
+    .team_hover {
+        display: none;
+    }
+    .team_item img {
+        width: 50%;
+    }
+    .gallary_item {
+        width: 45%;
+        margin-bottom: 10px;
+    }
+    .gallery_slider {
+        padding: 0 16px;
+    }
+    .reservation_right select {
+        width: 100%;
+    }
+    .testimonial_prev {
+        left: 0px;
+    }
+    .testimonial_next {
+        right: 0px;
+    }
+    .testimonial_right {
+        text-align: center;
+    }
+    .testimonial_right img {
+        margin: 0 auto;
+    }
+    .our_story_item {
+        text-align: center;
+        margin-bottom: 26px;
+    }
+    .our_story_item img {
+        width: 50%;
+    }
+    .contact_page {
+        padding-top: 270px;
+    }
+    .contact_banner h2 {
+        font-size: 26px;
+    }
+    .contact_banner p {
+        font-size: 14px;
+    }
+    .contact_count ul li span {
+        font-size: 35px;
+    }
+    .contact_count ul li {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:360px) {
+    .slider_item .slider_item_content h1 {
+        font-size: 28px;
+        line-height: 44px;
+    }
+    .slider_item .slider_item_content p {
+        font-size: 17px;
+    }
+    .banner .slider_item {
+        height: 550px;
+    }
+    .navbar-brand img {
+        width: 140px;
+    }
+    .story_item img {
+        height: 300px;
+    }
+    .our_story_right .common_button {
+        margin: 0 auto;
+    }
+    .happy_hour_counter ul {
+        width: 100%;
+    }
+    .gallary_item {
+        width: 98%;
+    }
+    .our_story_item img {
+        width: 60%;
+    }
+    .contact_page {
+        padding-top: 340px;
+    }
+    .contact_banner h2 {
+        font-size: 25px;
+    }
+    .contact_banner p {
+        font-size: 11px;
+    }
+}
+
+@media(max-width:280px) {
+    .banner .slider_item {
+        height: 460px;
+    }
+    .story_item img {
+        height: 280px;
+    }
+    .happy_before_bg {
+        position: absolute;
+        left: 0;
+        top: 65px;
+        z-index: -1;
+        height: 100%;
+        width: 100%;
+    }
+    .our_story {
+        padding-bottom: 0px;
+    }
+}
